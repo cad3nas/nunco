@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nunco — Support</title>
+<meta name="description" content="Help and contact for Nunco, a weather app for iPhone.">
+<style>
+  :root{
+    --bg:#FFFFFF; --ink:#16181B; --muted:#5B646B; --line:#E2E6E8; --accent:#3F5468;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{ --bg:#14161A; --ink:#E9EBEB; --muted:#9BA3A9; --line:#2C333A; --accent:#93A4B8; }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;
+    -webkit-text-size-adjust:100%;
+  }
+  main{max-width:40rem; margin:0 auto; padding:48px 20px 72px}
+  h1{font-size:1.9rem; line-height:1.2; margin:0 0 6px; letter-spacing:-.02em}
+  .lede{color:var(--muted); margin:0 0 32px}
+  h2{font-size:1.1rem; margin:36px 0 10px; letter-spacing:-.01em}
+  .contact{
+    margin:28px 0; padding:18px 20px; border:1px solid var(--line);
+    border-radius:10px;
+  }
+  .contact p{margin:0}
+  dl{margin:0}
+  dt{font-weight:600; margin-top:20px}
+  dd{margin:4px 0 0; color:var(--muted)}
+  a{color:var(--accent)}
+  footer{margin-top:48px; padding-top:20px; border-top:1px solid var(--line);
+         color:var(--muted); font-size:.9rem}
+</style>
+</head>
+<body>
+<main>
+
+  <h1>Nunco Support</h1>
+  <p class="lede">A quiet weather app for iPhone — today's conditions, the week
+  ahead, and a note for whatever the day needs.</p>
+
+  <div class="contact">
+    <p><strong>Need help, found a bug, or want to suggest something?</strong><br>
+    Email <a href="mailto:nuncoapp@gmail.com">nuncoapp@gmail.com</a>.
+    Messages are read by the person who made the app, and replied to.</p>
+  </div>
+
+  <h2>Using the app</h2>
+  <dl>
+    <dt>Adding a city</dt>
+    <dd>Tap the button in the corner and choose Add a city, then type a name.
+    Swipe left and right to move between the places you have saved.</dd>
+
+    <dt>Today or the week</dt>
+    <dd>Double-tap the bar at the bottom to switch between today's readings and
+    the next few days.</dd>
+
+    <dt>Refreshing</dt>
+    <dd>Pull down anywhere on the page. The mark in the middle turns while it
+    fetches.</dd>
+
+    <dt>The note</dt>
+    <dd>Opened from the same button. It saves as you type and appears under the
+    temperature on the main screen.</dd>
+
+    <dt>Left or right handed</dt>
+    <dd>The floating button and the panels sit in whichever bottom corner suits
+    you. Change it in Settings.</dd>
+  </dl>
+
+  <h2>Common questions</h2>
+  <dl>
+    <dt>Why does it ask for my location?</dt>
+    <dd>To show the weather where you are and to name that place. It is
+    optional — decline it and the app works normally, you just add cities by
+    name instead. Nothing about your location is sent to the developer. See the
+    <a href="privacy.html">privacy policy</a>.</dd>
+
+    <dt>I declined location and want to turn it on</dt>
+    <dd>iOS Settings → Privacy &amp; Security → Location Services →
+    Nunco.</dd>
+
+    <dt>A city I searched for was not found</dt>
+    <dd>Check the connection and try the city with its region, for example
+    "Chelsea, London". If a search keeps failing on a working connection, email
+    and say which name you typed.</dd>
+
+    <dt>Where does the weather come from?</dt>
+    <dd>Apple Weather. The Apple Weather mark sits at the foot of every page in
+    the app and links to Apple's list of the data sources behind it.</dd>
+
+    <dt>Larger text and VoiceOver</dt>
+    <dd>Both are supported throughout. If something is cut off or read oddly at
+    your text size, that is a bug worth reporting.</dd>
+  </dl>
+
+  <footer>
+    Nunco · <a href="privacy.html">Privacy Policy</a>
+  </footer>
+
+</main>
+</body>
+</html>
